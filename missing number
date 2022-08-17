@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  int n,i,sum=0,m,a[10];
+  printf("enter n value");
+  scanf("%d",&n);
+  printf("enter elements into array");
+  for(i=0;i<n;i++)
+  scanf("%d",&a[i]);
+  {
+      n*(n+1)/2;
+      printf("%d",n);
+  }
+  m=sum-n;
+  printf("%d",m);
+  return 0;
+}
