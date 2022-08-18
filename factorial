@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+  int arr[]={18,19,11,21,24};
+  int len=sizeof(arr)/sizeof(int);
+  int i,sum=0,f;
+  for(i=0;i<len;i++)
+  {
+    f=1;
+    while(arr[i]>0)
+    {
+      f=f*arr[i];
+      arr[i]--;
+    }
+    sum+=f;
+  }
+  printf("sum of factorial values of the elements in array=%d",sum);
+}
