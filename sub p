@@ -1,0 +1,4 @@
+p=int(input("enter p:"))
+q=int(input("enter q:"))
+r=p-q
+print(r)
